@@ -1,0 +1,36 @@
+.grid-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto;
+  top: 19%;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  width: 160px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.button-menu {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: rgb(85, 166, 48);
+}
+
+ .logo-plus, .logo-products,  .logo-input, .logo-output, .logo-remove, .logo-report, .logo-settings, .logo-logout, .logo-back {
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 60%;
+  max-height: 60%;
+  filter: brightness();
+  mix-blend-mode: multiply;
+  
+}
